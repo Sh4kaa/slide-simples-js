@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 400px;
+  height: 500px;
+  margin: 15vh auto 0;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slides {
+  display: flex;
+  width: 500%;
+}
+
+.controls {
+  margin-top: 1rem;
+  text-align: center;
+}
